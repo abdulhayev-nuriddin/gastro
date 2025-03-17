@@ -1,0 +1,18 @@
+.plan {
+    margin-top: 39px;
+
+    &__boxes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__box {
+        width: 170px;
+    }
+
+    &__text {
+        font-size: 12px;
+    }
+}
