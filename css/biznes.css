@@ -28,7 +28,6 @@ h5,
 h6,
 label {
     font-family: "Comfortaa", sans-serif;
-    color: #000;
 }
 
 p,
@@ -36,7 +35,6 @@ a,
 span,
 summary {
     font-family: "Montserrat", sans-serif;
-    color: #000;
 }
 
 input,
@@ -576,7 +574,7 @@ template {
 }
 
 .hero__container {
-    background-image: url(../../imagess/Rectangle1.svg);
+    background-image: url(../imagess/Rectangle1.svg);
     width: 1260px;
     height: 400px;
 }
