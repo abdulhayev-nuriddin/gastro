@@ -16,7 +16,7 @@
                 <img src="./images/banner.png" alt="logo">
             </div>
             <nav class="header__menu">
-                <a href="#" class="header__link">Програмы питания</a>
+                <a href="#agenda" class="header__link">Програмы питания</a>
                 <a href="#" class="header__link">Бизнес-ланчи</a>
                 <a href="#" class="header__link">Gastro Shop</a>
                 <a href="#" class="header__link">О нас</a>
@@ -115,7 +115,7 @@
                 </div>
             </div>
         </section>
-        <section class="agenda">
+        <section class="agenda" id="agenda">
             <div class="container agenda__container">
                 <div class="agenda__flex">
                     <h2 class="agenda__choose">
@@ -392,10 +392,177 @@
         </section>
         <section class="order">
             <div class="container order__container">
-                .
+                <div class="order__left">
+                    <h1 class="order__title">
+                        Оформить заказ
+                    </h1>
+                    <p class="order__description">
+                        Обсудите все детали заказа по телефону
+                        или сами укажите все подробности онлайн
+                    </p>
+                    <form action="" class="order__form">
+                        <label for="name" class="order__label">
+                            Имя
+                            <input type="text" id="name" class="order__input" placeholder="Имя">
+                        </label>
+                        <label for="tel" class="order__label">
+                            Номер телефона
+                            <input type="tel" id="tel" class="order__input" placeholder="Номер телефона">
+                        </label>
+                    </form>
+                    <h4 class="order__text">
+                        <input type="checkbox" name="" id=""> Тест-день! Получить скидку -30%?
+                    </h4>
+                    <h4 class="order__text">
+                        <input type="checkbox" name="" id=""> Согласен с <span class="order__span">
+                            условиями сотрудничества
+                        </span>
+                    </h4>
+                    <a href="#" class="order__tel">
+                        Заказ по телефону
+                    </a>
+                    <h3 class="">
+                        ИЛИ
+                    </h3>
+                    <a href="#" class="order__link">
+                        Онлайн заказ
+                    </a>
+                </div>
+                <div class="order__right">
+                    <h1 class="order__subtitle">
+                        Часто задаваемые вопросы
+                    </h1>
+                    <details>
+                        <summary>
+                            Как осуществляется доставка правильного питания?
+
+                        </summary>
+                        <p>
+                            При заказе у нас вы получите доставку в течение 30 минут.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Можно ли менять время доставки\место?
+                        </summary>
+                        <p>
+                            Место доставки и время могут быть изменены в зависимости от вашего расположения и времени
+                            суток.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Как и в чем приезжает еда?
+                        </summary>
+                        <p>
+                            Мы приезжаем еду в рестораны с уникальными условиями и удобствами для посетителей.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Когда Вы готовите?
+                        </summary>
+                        <p>
+                            Мы готовим еду в течение 30-45 минут после заказа.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Какие продукты Вы используете?
+                        </summary>
+                        <p>
+                            Мы используем только высококачественные продукты, которые соответствуют региону и условиям
+                            питания.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Я буду есть одно и то же?
+                        </summary>
+                        <p>
+                            Мы готовим еду в течение 30-45 минут после заказа.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            У меня аллергия и непереносимость определенных продуктов
+                        </summary>
+                        <p>
+                            Мы не приветствуем аллергии и непереносимость определенных продуктов.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            В какой очередности все есть?
+                        </summary>
+                        <p>
+                            Мы готовим еду в течение 30-45 минут после заказа.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Можно ли замораживать программу?
+                        </summary>
+                        <p>
+                            Мы не замораживаем программу.
+                        </p>
+                    </details>
+                </div>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="#agenda" class="footer__link">Програмы питания</a>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link">О нас</a>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link">Бизнес-ланчи</a>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link">Gastro Shop</a>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link">Блог</a>
+                </li>
+            </ul>
+            <img src="./images/footerbanner.png" alt="" class="footer__banner">
+            <ul class="footer__lists">
+                <li class="footer__items">
+                    <a href="" class="footer__links">Условия
+                        сотрудничества</a>
+                </li>
+                <li class="footer__items">
+                    <a href="" class="footer__links">FAQ</a>
+                </li>
+                <li class="footer__items">
+                    <span class="footer__span">
+                        <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <img src="./images/insta.svg" alt="" class="">
+                        </a>
+                        <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img src="./images/fb.svg" alt="" class="">
+                        </a>
+                        <a href="http://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+                            <img src="./images/wapp.svg" alt="" class="">
+                        </a>
+                        <a href="http://www.telegram.com" target="_blank" rel="noopener noreferrer">
+                            <img src="./images/tg.svg" alt="" class="">
+                        </a>
+                    </span>
+                </li>
+                <li class="footer__items">
+                    <a href="tel:++38 (068) 949 - 49 - 19" class="footer__tel">
+                        +38 (068) 949 - 49 - 19
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
