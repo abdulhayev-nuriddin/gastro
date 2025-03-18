@@ -21,6 +21,7 @@
     &__description {
         margin-bottom: 40px;
         max-width: 454px;
+        font-size: 20px;
     }
 
     &__flex {
@@ -50,5 +51,38 @@
         color: #64D370;
         font-weight: 700;
         font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        margin-top: 100px;
+
+        &__img {
+            width: 300px;
+        }
+
+        &__title {
+            font-size: 18px;
+            width: 217px;
+        }
+
+        &__description {
+            font-size: 12px;
+        }
+
+        &__flex {
+            flex-direction: column;
+            align-items: start;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero {
+        &__container {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
     }
 }

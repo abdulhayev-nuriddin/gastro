@@ -61,3 +61,17 @@ p {
     --alltexts-color: #fff;
     --body-color: #222;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 690px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        max-width: 380px;
+    }
+}

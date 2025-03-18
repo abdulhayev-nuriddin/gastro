@@ -21,3 +21,25 @@ main {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        background-image: none;
+    }
+
+    .statin {
+        background-image: none;
+        ;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        background-image: none;
+    }
+
+    .statin {
+        background-image: none;
+        ;
+    }
+}

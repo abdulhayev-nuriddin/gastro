@@ -16,3 +16,34 @@
         font-size: 12px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .plan {
+        &__img {
+            width: 36px;
+        }
+
+        &__text {
+            font-size: 7px;
+        }
+
+        &__box {
+            width: 100px;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .plan {
+        &__container {
+            display: grid;
+            place-items: center;
+        }
+
+        &__boxes {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+        }
+    }
+}
