@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1320px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a {
+    font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+b {
+    font-family: "Comfortaa";
+}
+
+.header__container {
+    z-index: 1000;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    background: #FFFFFF;
+}
+
+.header__logo {
+    position: absolute;
+    width: 164px;
+    height: 154px;
+    background: #F5FAFF;
+    box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+    border-radius: 130px;
+}
+
+.header__navbar {
+    display: flex;
+}
+
+.header__img {
+    height: 100px;
+    padding-top: 45px;
+    padding-left: 15px;
+}
+
+.header__list {
+    margin-top: 50px;
+    padding-left: 200px;
+    padding-top: 15px;
+    gap: 40px;
+    width: 880px;
+    height: 52px;
+    background: #F5FAFF;
+    box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+    border-radius: 190px;
+    display: flex;
+}
+
+.header__link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #020202;
+}
+
+.header__link1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #64D370;
+}
+
+.header__link2 {
+    margin-top: 49px;
+    width: 280px;
+    height: 52px;
+    background: #F5FAFF;
+    box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+    border-radius: 190px;
+    padding: 14px 30px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #64D370;
+}
+
+@media only screen and (max-width: 768px) {
+    .header__cotainer {
+        align-items: center;
+    }
+}
+
+.hero__container {
+    margin-top: 120px;
+}
+
+.hero__worb {
+    padding-left: 50px;
+}
+
+.hero__statr {
+    gap: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.hero__span {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0.025em;
+    color: #020202;
+}
+
+.hero__titlename {
+    color: #64D370;
+}
+
+.hero__text {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    color: #020202;
+    padding: 40px 0px 20px;
+}
+
+.hero__text2 {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    color: #020202;
+    padding: 40px 0px 20px;
+    padding: 0px 0px 40px;
+}
+
+.hero__logo {
+    width: 779px;
+    height: 717px;
+}
+
+@media only screen and (max-width: 568px) {
+    .hero__statr {
+        flex-direction: column;
+    }
+}
+
+.bag__container {
+    margin-top: 40px;
+}
+
+.bag__statr {
+    display: flex;
+    gap: 20px;
+}
+
+.bag__worb {
+    padding: 100px;
+}
+
+.bag__title {
+    padding: 0px 0px 20px;
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #020202;
+}
+
+.bag__text {
+    padding: 20px 0px 20px;
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 13px;
+    color: #020202;
+}
+
+.bag__img {
+    width: 516px;
+    height: 516px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 568px) {
+    .bag__statr {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bag__worb {
+        text-align: center;
+    }
+}
+
+.family__statr {
+    display: flex;
+    margin-top: 100px;
+}
+
+.family__art {
+    width: 1390px;
+    height: 694px;
+    filter: drop-shadow(0px 0px 20px rgba(86, 86, 86, 0.6));
+}
+
+.family__title {
+    padding: 15px 0px 40px;
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #020202;
+}
+
+.family__text {
+    padding: 0px 0px 20px;
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    color: #020202;
+}
+
+.family__btext {
+    padding: 40px 0px 30px;
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #020202;
+}
+
+.family__herolink {
+    display: flex;
+    gap: 20px;
+}
+
+.family__link {
+    align-items: center;
+    vertical-align: middle;
+}
+
+.family__img {
+    width: 652px;
+    height: 534px;
+}
+
+@media only screen and (max-width: 568px) {
+    .family__statr {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.foods__statr {
+    text-align: center;
+    padding-top: 247px;
+}
+
+.foods__list {
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.foods__img {
+    width: 280px;
+    height: 260px;
+}
+
+.foods__img1 {
+    width: 280px;
+    height: 250px;
+}
+
+.order {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.order__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order__left {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 420px;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.order__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.order__label {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.order__input {
+    width: 418px;
+    height: 40px;
+    border-radius: 190px;
+    padding: 0 20px;
+    background-color: #DEE6EE;
+}
+
+.order__span {
+    color: #64D370;
+}
+
+.order__tel {
+    border: 3px solid #64D370;
+    border-radius: 190px;
+    padding: 15px 30px;
+    color: #64D370;
+    transition: all 0.3s ease;
+}
+
+.order__tel:hover {
+    transform: scale(1.1);
+}
+
+.order__tel:active {
+    transform: scale(0.9);
+}
+
+.order__link {
+    padding: 14px 68px;
+    background-color: #64D370;
+    color: #fff;
+    border-radius: 190px;
+    transition: all 0.3s ease;
+}
+
+.order__link:hover {
+    transform: scale(1.1);
+}
+
+.order__link:active {
+    transform: scale(0.9);
+}
+
+.order__right {
+    width: 680px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.order__right details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px 0px 20px 0px rgba(86, 86, 86, 0.2);
+    padding: 10px 20px;
+    border-radius: 190px;
+}
+
+.order__subtitle {
+    text-align: center;
+}
+
+@media only screen and (max-width: 568px) {
+    .order__container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.footer__container {
+    width: 1320px;
+    height: 263px;
+    background: #F5FAFF;
+    box-shadow: 0px 0px 30px rgba(86, 86, 86, 0.25);
+    border-radius: 30px;
+}
+
+.footer__statr {
+    display: flex;
+    align-items: center;
+    padding-left: 190px;
+    padding-top: 30px;
+    gap: 60px;
+}
+
+.footer__list {
+    gap: 15px;
+}
+
+.footer__link {
+    width: 131px;
+    height: 22px;
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #020202;
+}
+
+.footer__link {
+    gap: 10px;
+}
+
+.footer__item {
+    padding-top: 10px;
+}
+
+.footer__logoitem {
+    padding-top: 10px;
+}
+
+.footer__link2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #64D370;
+}
+
+.footer__logoitem1 {
+    padding-top: 10px;
+    gap: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
