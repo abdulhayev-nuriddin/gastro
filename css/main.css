@@ -505,4 +505,18 @@ summary {
 }
 .footer__link:hover {
   color: #64D370;
+}
+
+main {
+  background-image: url(../../images/ellipse1.png), url(../../images/ellipse2.png), url(../../images/ellipse3.png), url(../../images/ellipse4.png), url(../../images/ellipse5.png);
+  background-position: 0px 700px, right 1400px, left 2000px, right 2300px, left 2700px;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1000;
+}
+
+.statin {
+  background-image: url(../../images/ellipse.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }/*# sourceMappingURL=main.css.map */
