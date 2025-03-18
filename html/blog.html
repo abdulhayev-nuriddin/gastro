@@ -9,37 +9,37 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="header__container container">
-            <div class="header__box">
-                <div class="header__box-img">
-                    <img src="..//image/Website_banner 4.png" alt="" class="header__img">
-                    <a href="" class="header__text-a">healthy ration</a>
-                </div>
-                <ul class="header__list">
-                    <li>
-                        <a href="" class="header__text-a">Програмы питания</a>
-                    </li>
-                    <li>
-                        <a href="" class="header__text-a">Бизнес-ланчи</a>
-                    </li>
-                    <li>
-                        <a href="" class="header__text-a">Gastro Shop</a>
-                    </li>
-                    <li>
-                        <a href="" class="header__text-a">О нас</a>
-                    </li>
-                    <li>
-                        <a href="" class="header__text-a">Блог</a>
-                    </li>
-                </ul>
-                <a href="" class="header__number">+38 (068) 949 - 49 -19</a>
+            <div class="header__logo">
+                <img src="../images/banner.png" alt="logo" class="header__img">
             </div>
-            <div class="header__box-language">
-                <a href="" class="header__language">RU</a>
-                <a href="" class="header__language">UA</a>
-                <a href="" class="header__language">EN</a>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="header__menu">
+                <a href="#agenda" class="header__link">Програмы питания</a>
+                <a href="./html/biznes.html" class="header__link">Бизнес-ланчи</a>
+                <a href="./html/shop.html" class="header__link">Gastro Shop</a>
+                <a href="./html/about.html" class="header__link">О нас</a>
+                <a href="./html/blog.html" class="header__link">Блог</a>
+            </nav>
+
+            <div class="header__contacts">
+                <a href="tel:+380689494919" class="header__phone">+38 (068) 949-49-19</a>
             </div>
+
+        </div>
+
+        <div class="container header__lang">
+            <a href="#" class="header__lang-link">RU</a>
+            <a href="#" class="header__lang-link">UA</a>
+            <a href="#" class="header__lang-link">EN</a>
         </div>
     </header>
     <main>
@@ -160,48 +160,56 @@
             </ul>
         </div>
     </section>
-    <footer>
-        <div class="footer__container container">
+    <footer class="footer">
+        <div class="container footer__container">
             <ul class="footer__list">
-                <li>
-                    <a href="" class="footer__text-a1">Програмы питания</a>
+                <li class="footer__item">
+                    <a href="#agenda" class="footer__link">Програмы питания</a>
                 </li>
-                <li>
-                    <a href="" class="footer__text-a1">О нас</a>
+                <li class="footer__item">
+                    <a href="./html/about.html" class="footer__link">О нас</a>
                 </li>
-                <li>
-                    <a href="" class="footer__text-a1">Бизнес-ланчи</a>
+                <li class="footer__item">
+                    <a href="./html/biznes.html" class="footer__link">Бизнес-ланчи</a>
                 </li>
-                <li>
-                    <a href="" class="footer__text-a1">Gastro Shop</a>
+                <li class="footer__item">
+                    <a href="./html/shop.html" class="footer__link">Gastro Shop</a>
                 </li>
-                <li>
-                    <a href="Блог"></a>
+                <li class="footer__item">
+                    <a href="./html/blog.html" class="footer__link">Блог</a>
                 </li>
             </ul>
-            <div class="footer__center">
-                <img src="..//image/Website_banner 4.png" alt="">
-                <a href="" class="footer__text-a">сервис здорового питания</a>
-            </div>
-            <div class="footer__right">
-                <a href="" class="footer__text-a2">Условия сотрудничества</a>
-                <a href="" class="footer__text-a2">FAQ</a>
-                <div class="footer__link">
-                    <a href="">
-                        <img src="..//image/ins.png" alt="">
+            <img src="../images/footerbanner.png" alt="" class="footer__banner">
+            <ul class="footer__lists">
+                <li class="footer__items">
+                    <a href="#" class="footer__links">Условия
+                        сотрудничества</a>
+                </li>
+                <li class="footer__items">
+                    <a href="#" class="footer__links">FAQ</a>
+                </li>
+                <li class="footer__items">
+                    <span class="footer__span">
+                        <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <img src="../images/insta.svg" alt="" class="">
+                        </a>
+                        <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img src="../images/fb.svg" alt="" class="">
+                        </a>
+                        <a href="http://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+                            <img src="../images/wapp.svg" alt="" class="">
+                        </a>
+                        <a href="http://www.telegram.com" target="_blank" rel="noopener noreferrer">
+                            <img src="../images/tg.svg" alt="" class="">
+                        </a>
+                    </span>
+                </li>
+                <li class="footer__items">
+                    <a href="tel:++38 (068) 949 - 49 - 19" class="footer__tel">
+                        +38 (068) 949 - 49 - 19
                     </a>
-                    <a href="">
-                        <img src="..//image/face.png" alt="">
-                    </a>
-                    <a href="">
-                        <img src="..//image/app.png" alt="">
-                    </a>
-                    <a href="">
-                        <img src="..//image/teleg.png" alt="">
-                    </a>
-                </div>
-                <a href="" class="footer__text-a3">+38 (068) 949 - 49 - 19</a>
-            </div>
+                </li>
+            </ul>
         </div>
     </footer>
 </body>
