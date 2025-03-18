@@ -9,24 +9,33 @@
 </head>
 
 <body>
-    <header class="header container">
+    <header class="header">
         <div class="header__container container">
             <div class="header__logo">
-                <img src="../imagess/logo.png" alt="logo">
+                <img src="../images/banner.png" alt="logo" class="header__img">
             </div>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
             <nav class="header__menu">
-                <a href="#" class="header__link">Програмы питания</a>
-                <a href="#" class="header__link">Бизнес-ланчи</a>
-                <a href="#" class="header__link">Gastro Shop</a>
-                <a href="#" class="header__link">О нас</a>
-                <a href="#" class="header__link">Блог</a>
+                <a href="#agenda" class="header__link">Програмы питания</a>
+                <a href="./html/biznes.html" class="header__link">Бизнес-ланчи</a>
+                <a href="./html/shop.html" class="header__link">Gastro Shop</a>
+                <a href="./html/about.html" class="header__link">О нас</a>
+                <a href="./html/blog.html" class="header__link">Блог</a>
             </nav>
 
             <div class="header__contacts">
-                <a href="+38 (068) 949 - 49 -19" class="header__phone">
-                    +38 (068) 949 - 49 -19</a>
+                <a href="tel:+380689494919" class="header__phone">+38 (068) 949-49-19</a>
             </div>
+
         </div>
+
         <div class="container header__lang">
             <a href="#" class="header__lang-link">RU</a>
             <a href="#" class="header__lang-link">UA</a>
