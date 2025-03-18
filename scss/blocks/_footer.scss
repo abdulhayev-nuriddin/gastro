@@ -57,3 +57,39 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        &__banner {
+            width: 300px;
+        }
+
+        &__item {
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        &__container {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__banner {
+            width: 300px;
+        }
+
+        &__list {
+            display: none;
+        }
+
+        &__links {
+            display: none;
+        }
+    }
+}

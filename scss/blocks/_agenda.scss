@@ -1,11 +1,11 @@
 .agenda {
-    margin-top: 159px;
+    margin-top: 50px;
 
 
     &__flex {
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
+        // align-items: center;
     }
 
     &__choose {
@@ -119,6 +119,7 @@
 
     &__frame {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         margin-top: 50px;
     }
@@ -166,4 +167,140 @@
     }
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .agenda {
+        &__choose {
+            padding: 10px 70px;
+            font-size: 14px;
+        }
+
+        &__box {
+
+            h3 {
+                font-size: 10px;
+            }
+
+            p {
+                font-size: 8px;
+            }
+        }
+
+        &__fitness {
+            width: 222px;
+            height: 145px;
+
+            h1 {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 10px;
+            }
+        }
+
+        &__text {
+            width: 163px;
+        }
+
+        &__left {
+            gap: 25px;
+        }
+
+        &__grid {
+            gap: 8px;
+        }
+
+        &__flex1 {
+            width: 200px;
+
+            p,
+            del {
+                font-size: 8px;
+            }
+        }
+
+        &__link {
+            padding: 7px 40px;
+            font-size: 12px;
+            width: 163px;
+            height: 35px;
+        }
+
+        &__data {
+            width: 456px;
+            padding: 9px 10px;
+
+
+            h2 {
+                font-size: 10px;
+            }
+        }
+
+        &__block {
+            width: 456px;
+            height: auto;
+            padding: 17px;
+            gap: 25px;
+        }
+
+        &__flex2 {
+
+            h4,
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .agenda {
+            &__flex {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            &__boxes {
+                margin-top: 40px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 31px;
+            }
+
+            &__frame {
+                display: grid;
+                gap: 40px;
+            }
+
+            &__fitness {
+                width: 280px;
+                padding: 15px;
+                height: auto;
+            }
+
+            &__grid {
+                width: 280px;
+                gap: 10px;
+                place-content: center;
+            }
+
+            &__left {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 276px;
+            }
+
+            &__right {
+                width: 276px;
+            }
+
+            &__data {
+                width: 276px;
+            }
+
+            &__block {
+                width: 276px;
+            }
+        }
+    }
+}

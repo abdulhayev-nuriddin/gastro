@@ -368,12 +368,11 @@ summary {
   }
 }
 .agenda {
-  margin-top: 159px;
+  margin-top: 50px;
 }
 .agenda__flex {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
 }
 .agenda__choose {
   padding: 17px 80px;
@@ -466,6 +465,7 @@ summary {
 }
 .agenda__frame {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin-top: 50px;
 }
@@ -505,6 +505,108 @@ summary {
   align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .agenda__choose {
+    padding: 10px 70px;
+    font-size: 14px;
+  }
+  .agenda__box h3 {
+    font-size: 10px;
+  }
+  .agenda__box p {
+    font-size: 8px;
+  }
+  .agenda__fitness {
+    width: 222px;
+    height: 145px;
+  }
+  .agenda__fitness h1 {
+    font-size: 14px;
+  }
+  .agenda__fitness p {
+    font-size: 10px;
+  }
+  .agenda__text {
+    width: 163px;
+  }
+  .agenda__left {
+    gap: 25px;
+  }
+  .agenda__grid {
+    gap: 8px;
+  }
+  .agenda__flex1 {
+    width: 200px;
+  }
+  .agenda__flex1 p,
+  .agenda__flex1 del {
+    font-size: 8px;
+  }
+  .agenda__link {
+    padding: 7px 40px;
+    font-size: 12px;
+    width: 163px;
+    height: 35px;
+  }
+  .agenda__data {
+    width: 456px;
+    padding: 9px 10px;
+  }
+  .agenda__data h2 {
+    font-size: 10px;
+  }
+  .agenda__block {
+    width: 456px;
+    height: auto;
+    padding: 17px;
+    gap: 25px;
+  }
+  .agenda__flex2 h4,
+  .agenda__flex2 p {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 480px) {
+  .agenda__flex {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .agenda__boxes {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 31px;
+  }
+  .agenda__frame {
+    display: grid;
+    gap: 40px;
+  }
+  .agenda__fitness {
+    width: 280px;
+    padding: 15px;
+    height: auto;
+  }
+  .agenda__grid {
+    width: 280px;
+    gap: 10px;
+    place-content: center;
+  }
+  .agenda__left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 276px;
+  }
+  .agenda__right {
+    width: 276px;
+  }
+  .agenda__data {
+    width: 276px;
+  }
+  .agenda__block {
+    width: 276px;
+  }
+}
 .foto {
   margin-top: 120px;
 }
@@ -521,6 +623,39 @@ summary {
   height: 570px;
 }
 
+@media only screen and (max-width: 768px) {
+  .foto__title {
+    font-size: 18px;
+  }
+  .foto__foto {
+    width: 300px;
+    height: 404px;
+  }
+  .foto__foto1 {
+    display: none;
+  }
+  .foto__foto2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .foto {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .foto__title {
+    margin-bottom: 30px;
+  }
+  .foto__foto {
+    width: 240px;
+    height: 346px;
+    margin-top: 30px;
+  }
+  .foto__foto4 {
+    display: none;
+  }
+}
 .order {
   margin-top: 100px;
   margin-bottom: 150px;
@@ -612,6 +747,30 @@ summary {
   text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .order__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .order__right {
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .order__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .order__right {
+    width: 380px;
+  }
+  .order details {
+    font-size: 13px;
+    height: 50px;
+  }
+}
 .footer {
   width: 100%;
   height: 263px;
@@ -661,6 +820,30 @@ summary {
   color: #64D370;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__banner {
+    width: 300px;
+  }
+  .footer__item a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer__banner {
+    width: 300px;
+  }
+  .footer__list {
+    display: none;
+  }
+  .footer__links {
+    display: none;
+  }
+}
 main {
   background-image: url(../../images/ellipse1.png), url(../../images/ellipse2.png), url(../../images/ellipse3.png), url(../../images/ellipse4.png), url(../../images/ellipse5.png);
   background-position: 0px 700px, right 1400px, left 2000px, right 2300px, left 2700px;

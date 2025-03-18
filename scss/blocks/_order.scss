@@ -103,3 +103,36 @@
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .order {
+        &__container {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__right {
+            margin-top: 100px;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .order {
+        &__container {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__right {
+            width: 380px;
+        }
+
+        details {
+            font-size: 13px;
+            height: 50px;
+        }
+    }
+}
